@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="person" namespace="/person" extends="struts-default">
+
+<action name="personaction" class="ms.person.action.PersonalAction">
+<result name="loginsuccess">/main.jsp</result>
+<result name="registersuccess">/person/login.jsp</result>
+<result name="list">/person/person_list.jsp</result>
+<result name="updatefirst" >/person/person_login_person.jsp</result>
+<result name="updatesuccess">/person/person_login_info.jsp</result>
+<result name="findsuccess">/person/person_login_info.jsp</result>
+<result name="registererror">/person/register.jsp</result>
+</action>
+
+<action name="manageaction" class="ms.person.action.ManageAction">
+<result name="managefindsuccess" >/person/person_update.jsp</result>
+<result name="manageupdatesuccess" >/success.jsp</result>
+<result name="managedeletesuccess" >/success.jsp</result>
+</action>
+</package>
+</struts>    

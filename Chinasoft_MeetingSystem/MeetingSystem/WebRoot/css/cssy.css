@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.main_body {
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+	height: auto;
+	background: #ECECEC;
+}
+
+#main_box {
+	text-align: center;
+	width: 96%;
+	height: auto;
+	margin-left: 2%;
+	background: #ccf;
+	float: left;
+	display: block;
+	background: #ccf
+}
+
+#main_box_header {
+	height: 150px;
+	border-bottom: #3890d7 solid 2px;
+}
+
+#logo {
+	float: left;
+	padding-left: 50px;
+	margin: 25px;
+}
+
+#main_box_main {
+	width: 100%;
+	min-height: 560px;
+	text-align: left;
+	float: left;
+	background: #E3E3E3;
+}
+
+#main_box_left {
+	clear: both;
+	width: 20%;
+	min-height: 560px;
+	height: auto;
+	text-align: left;
+	float: left;
+	display: block;
+	
+}
+
+.main_box_main_left_ul {
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#main_box_right {
+	width: 80%;
+	min-height: 450px;
+	text-align: left;
+	float: right;
+	display: block;
+}
+
+.main_box_header_button {
+	list-style: none;
+	float: right;
+	display: block;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	color: #3890d7;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	margin: 60px 50px 60px 10px;
+	padding: 5px;
+	font-stretch: narrower;
+}
+
+#bottom {
+	border-top: #3890d7 solid 2px;
+	margin: 10px 0px 0px 0px;
+}
+/*登录页面*/
+.login {
+	width: 500px;
+	height: auto;
+	margin-left: 40%;
+	text-align: center;
+	font-size: 16px;
+}
+
+.login li {
+	list-style: none;
+	float: left;
+	display: block;
+	clear: both;
+	margin: 10px auto 0px;
+}
+
+.main_box_main_title {
+	width: 50px;
+	text-align: left;
+	padding-top: 2px;
+}
+
+.login li input {
+	border: solid #3890D7 2px;
+	width: 200px;
+	height: 30px;
+}
+
+.login input[type=button],.login input[type=submit] {
+	float: left;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	margin: 20px 10px 0px 10px;
+}
+
+.login input[type=submit] {
+	clear: left;
+}
+/*预约会议*/
+#meeting_order_addMeeting {
+	float: left;
+	width: 400px;
+	margin: 10px 0px 10px 20px;
+	text-align: center;
+}
+
+.meeting_menu_button {
+	list-style: none;
+	display: block;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	color: #3890d7;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	margin: 20px 0px 50px 70px;
+	padding: 10px;
+	font-stretch: narrower;
+}
+
+#meeting_order_addMeeting td {
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	padding: 10px;
+	margin: 20px 0px 50px 0px;
+}
+
+.meeting_order_addMeeting_others_a {
+	float: left;
+	width: 290px;
+	height: 420px;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	margin: 10px 0px 10px 20px;
+}
+
+.meeting_order_addMeeting_others_b {
+	float: left;
+	width: 250px;
+	height: 420px;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	margin: 10px 0px 10px 20px;
+}
+/*查询会议*/
+.meeting_find_body table {
+	margin: 0 auto;
+	width: 1000px;
+	border: 1px solid #000
+}
+
+.meeting_find_body table tr th {
+	height: 28px;
+	line-height: 28px;
+	background: #999;
+}
+
+.meeting_finde_stripe tr td {
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background: #FFF;
+	vertical-align: middle;
+}
+
+.meeting_finde_stripe tr.alt td {
+	background: #F2F2F2;
+} /* 默认隔行背景颜色 */
+.meeting_finde_stripe tr.over td {
+	background: #EEECEB;
+} /* 鼠标经过时候背景颜色 */
+#n {
+	margin: 10px auto;
+	width: 920px;
+	border: 1px solid #CCC;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#n a {
+	padding: 0 4px;
+	color: #333
+}
+/*修改会议*/
+#meeting_update_table {
+	float: left;
+	width: 400px;
+	margin: 10px 0px 10px 20px;
+	text-align: center;
+}
+
+#meeting_update_table td {
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px 50px 0px;
+}
+/*更新个人信息*/
+#person_updateinfor {
+	float: left;
+	width: 400px;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#person_updateinfor td {
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	padding: 10px;
+	margin: 20px 0px 50px 0px;
+}
+
+#person_updateinfor_button {
+	list-style: none;
+	display: block;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	color: #3890d7;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	margin: 20px 0px 50px 70px;
+	padding: 10px;
+	font-stretch: narrower;
+}
+/*会议室*/
+.room_find_body {
+	font-size: 18px;
+	background-color: #ECECEC;
+	width: 930px;
+	height: 540px;
+	text-align: center;
+}
+
+.room_find_body .button {
+	list-style: none;
+	border: #3890d7 2px solid;
+	border-radius: 5px;
+	color: #3890d7;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 24px;
+	margin: 20px 10px;
+	padding: 5px;
+}
+
+.room_find_body h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.room_find_body table {
+	margin: 0px auto;
+	text-align: right;
+	font-size: 18px;
+	padding-right: 10px;
+	border: 2px;
+}
+
+.room_find_body input[type=text],select {
+	width: 150px;
+	height: 30px;
+	border: #3890d7 2px solid;
+}
+
+#room_find_table,#room_find_table td,#room_find_table th {
+	width: auto;
+	height: 30px;
+	border: solid #3890D7 2px;
+	padding: 3px;
+	border-collapse: collapse;
+}
+
+#delfind th {
+	background: #CCCCFF;
+}
+
+#delfind tr:hover {
+	background-color: #E3E3E3;
+}
+
+.room_find_table_button {
+	width: 400px;
+	font-size: 24px;
+}
+
+/*权限申请*/
+.root_apply_body button {
+	cursor: pointer;
+	border: 1px solid transparent;
+	text-align: center;
+	margin: 5px;
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+
+.root_apply_body select {
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.root_apply_body_color {
+	width: 25px;
+	height: 25px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 5px;
+	cursor: pointer
+}
+/*删除旧设备*/
+.delete {
+	text-decoration: none;
+	color: #3890D7;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.delete:hover {
+	color: red;
+}
+/*main*/
+.arcordion {
+	width: 90%;
+}
+
+.arcordion.arcordion_item {
+	list-style: none;
+	cursor: pointer;
+}
+
+.arcordion.item_header {
+	background-color: lightgrey;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 18px
+}
+
+.arcordion.item_content {
+	border: 1px solid darkgrey;
+	border-radius: 3px;
+	padding: 5px;
+	display: none;
+}
+
+.arcordion.item_content.active {
+	display: block;
+}
+a{
+	list-style: none;
+}
